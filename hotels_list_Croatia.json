@@ -1,0 +1,74 @@
+[
+  {
+    "hotel": "Apartment OSC - self check in",
+    "price": "\u20ac\u00a083",
+    "score": "9.6",
+    "room": "1",
+    "bed": "1",
+    "facilities": ["TV", "Kitchen"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/445419199.webp?k=5423882db3f520ce82c38cbdf1f7bfa20565bccf94e100389d369aef4455af18&o="
+  },
+  {
+    "hotel": "Gajeva Rooms",
+    "price": "\u20ac\u00a052",
+    "score": "9.4",
+    "room": "1",
+    "bed": "1",
+    "facilities": ["TV", "Wi-Fi"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/380092589.webp?k=a7e9028f6fc48472d05af121601d8117e1769a061349c2e052cebb5ed9ac6b72&o="
+  },
+  {
+    "hotel": "Ginko sobe Daruvar",
+    "price": "\u20ac\u00a052",
+    "score": "9.7",
+    "room": "1",
+    "bed": "2",
+    "facilities": ["Wi-Fi"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/232261918.webp?k=07dc2cc906b13e12c24b2b7a6aa3625f873c3ec621955ce55c1b868d7be9acf7&o="
+  },
+  {
+    "hotel": "Priska Med Luxury Rooms",
+    "price": "\u20ac\u00a053",
+    "score": "8.1",
+    "room": "2",
+    "bed": "2",
+    "facilities": ["Wi-Fi", "Parking"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/70924960.webp?k=3d14766ec40339c2256ed149b0368b0b0a658c8f78d5bc4e706e2bbfc70228a7&o="
+  },
+  {
+    "hotel": "Plitvice Holiday Resort",
+    "price": "\u20ac\u00a062",
+    "score": "8.8",
+    "room": "1",
+    "bed": "2",
+    "facilities": [],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/164448094.webp?k=f95c83c53affcf7e78485ab2502c02794a852beae828a0826eff49a892594c1a&o="
+  },
+  {
+    "hotel": "A8 b&b",
+    "price": "\u20ac\u00a079",
+    "score": "9.3",
+    "room": "1",
+    "bed": "1",
+    "facilities": ["Wi-Fi"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/387724046.webp?k=53df040c63e36f36815a7cf935e08180c24f76e197410a97cf36e2ba7ab6b773&o="
+  },
+  {
+    "hotel": "Admiral Hotel",
+    "price": "\u20ac\u00a0208",
+    "score": "9.1",
+    "room": "10",
+    "bed": "20",
+    "facilities": ["TV", "Wi-Fi", "Parking", "Pool"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/132527680.webp?k=ee56f7376de20fa4bd8e143462de19fed1c651b249c2fbfdc57bb4a5a4fc436f&o="
+  },
+  {
+    "hotel": "Bel Residence",
+    "price": "\u20ac\u00a077",
+    "score": "9.3",
+    "room": "2",
+    "bed": "3",
+    "facilities": ["Pool"],
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/square200/203770311.webp?k=484bbc8a8b9528c74b058cb06f30414580e5b438e31793188222d443ada8fbf4&o="
+  }
+]
