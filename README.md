@@ -3,10 +3,10 @@
 **IMPORTANT NOTE: I've only added cro.json cause of security reasons. Same thing with all other json files. 
 If you want to test it out with all hotels from JSON you'll need to make changes on your own.**
 ```
-admin table: 
+**ADMIN TABLE:** 
 username, 
 password
-croatia table:
+**CROATIA TABLE:**
 ```hotel, 
 price(VARCHAR cuz currency symbol was added too),
 score DECIMAL(3,1),
