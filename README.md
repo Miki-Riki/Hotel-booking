@@ -2,9 +2,10 @@
 
 **IMPORTANT NOTE: I've only added cro.json cause of security reasons. Same thing with all other json files. 
 If you want to test it out with all hotels from JSON you'll need to make changes on your own.**
+```
 admin table: 
-```username, 
-password```
+username, 
+password
 croatia table:
 ```hotel, 
 price(VARCHAR cuz currency symbol was added too),
@@ -12,8 +13,8 @@ score DECIMAL(3,1),
 room INT,
 bed INT,
 facilities VARCHAR (basically an array e.g.("TV", "Wi-fi",...)),
-image_url VARCHAR```
-
+image_url VARCHAR
+```
 Project still in development.
 Enjoy it :)
 
