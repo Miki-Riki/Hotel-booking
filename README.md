@@ -8,7 +8,7 @@ username,
 password
 
 **CROATIA TABLE:**
-```hotel, 
+hotel, 
 price(VARCHAR cuz currency symbol was added too),
 score DECIMAL(3,1),
 room INT,
