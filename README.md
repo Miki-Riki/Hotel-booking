@@ -1,4 +1,4 @@
-# Hotel booking management, user managemt
+# Hotel booking management, user managemt PHP, Bootstrap, MySQL
 
 **IMPORTANT NOTE: I've only added cro.json cause of security reasons. Same thing with all other json files. 
 If you want to test it out with all hotels from JSON you'll need to make changes on your own.**
