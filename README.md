@@ -6,6 +6,7 @@ If you want to test it out with all hotels from JSON you'll need to make changes
 **ADMIN TABLE:** 
 username, 
 password
+
 **CROATIA TABLE:**
 ```hotel, 
 price(VARCHAR cuz currency symbol was added too),
