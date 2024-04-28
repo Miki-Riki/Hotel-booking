@@ -41,6 +41,14 @@
         margin-top: 2px;
     }
 
+    form .label_gender {
+        margin-left: -.5em;
+    }
+
+    form .gender {
+        margin-left: -.5em;
+    }
+
     form .gender :hover {
         cursor: pointer;
     }
