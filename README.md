@@ -1,1 +1,1 @@
-# Hotel booking management & user managemt using PHP, Bootstrap, MySQL
+# Hotel booking management & User managemt using PHP, Bootstrap, MySQL
