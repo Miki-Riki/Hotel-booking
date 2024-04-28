@@ -45,7 +45,7 @@
                     allowOutsideClick: false
                 }).then(() => {
                     // Redirect to the login page after the user clicks OK
-                    window.location.href = 'login.php';
+                    window.location.href = 'login_reg.php';
                 });
             </script>";
         } else {
