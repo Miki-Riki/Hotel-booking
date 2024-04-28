@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+/*FILTERS*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*ROOMS*/
+
+h2.fw-bold {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+}
+
+.row .col-lg-3 .navbar {
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: 'Josefin Sans';
+}
+
+.row .col-lg-3 .navbar button {
+    box-shadow: none;
+}
+
+.col-lg-3 h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.col-lg-3 h5 {
+    font-weight: bold;
+}
+
+.col-lg-9 .card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.col-lg-9 .card:hover {
+    transform: none;
+    transition: none;
+}
+
+.col-md-4 img {
+    border-radius: 1em;
+}
+
+.col-lg-9 .card .card-body {
+    font-size: 1.2em;
+}
+
+.col-md-4 .spans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-4 .facilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-4 span.badge {
+    padding: 1em;
+    margin: .25em;
+}
+
+.col-lg-9 .card .price {
+    color: green;
+    font-weight: bold;
+    text-align: right;
+}
+
+.col-lg-9 .card .rating_bg {
+    position: absolute;
+    background-color: darkblue;
+    border-radius: 25%;
+    width: 30px;
+    height: 32px;
+    right: 40px;
+    margin-top: 1em;
+}
+
+.col-lg-9 .card p.rating {
+    color: white;
+    padding: .25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-lg-9 .card .btn {
+    background-color: darkblue;
+    border-color: 0;
+    color: white;
+    float: right;
+    margin-top: 5em;
+}
+
+.col-lg-9 .card .btn:hover {
+    background-color: rgb(0, 0, 180);
+}
+
+.page-link {
+    color: darkblue;
+}
+
+.page-link:hover {
+    color: darkblue;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .col-md-4 .facilities {
+        display: block;
+        padding-left: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4 img {
+        width: 100%;
+    }
+
+    .col-md-4 .card-title {
+        margin-top: 1em;
+    }
+
+    .col-md-4:last-child {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-md-4 .facilities {
+        display: flex;
+    }
+
+    .col-md-4 .price {
+        float: left;
+    }
+
+    .col-md-4 .rating_bg {
+        left: 30px;
+        bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col-md-4 .spans {
+        display: grid;
+    }
+
+    .col-md-4 .facilities {
+        display: grid;
+        margin-left: -1em;
+    }
+}
