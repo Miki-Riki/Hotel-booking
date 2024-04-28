@@ -77,7 +77,7 @@
     background-color: darkblue;
     color: white;
     font-weight: bold;
-    margin-left: -.5em;
+    margin-left: -1em;
 }
 
 .modal .register span {
@@ -132,6 +132,10 @@
         justify-content: center;
     }
 
+    .navbar .logo {
+        min-width: 15%;
+    }
+
     .navbar .navbar-nav {
         margin-right: 0;
     }
@@ -157,5 +161,11 @@
     .menu .dropdown-menu {
         margin-left: 50%;
         transform: translate(-50%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar .logo {
+        min-width: 25%;
     }
 }
