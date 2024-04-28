@@ -6,53 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .modal .login {
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+        }
+
+        .modal .login:hover {
+            background-color: rgb(0, 0, 180);
+        }
+
+        .modal .register {
+            background-color: darkblue;
+            color: white;
+            font-weight: bold;
+            margin-left: -1em;
+        }
+
+        .modal .register:hover {
+            background-color: rgb(0, 0, 180);
+        }
+
+        .asterix {
+            color: red;
+            margin-left: 2px;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 2px;
+        }
+
+        form .label_gender {
+            margin-left: -.5em;
+        }
+
+        form .gender {
+            margin-left: -.5em;
+        }
+
+        form .gender :hover {
+            cursor: pointer;
+        }
+    </style>
     <script defer src="js/booking.js"></script>
 </head>
-<style>
-    .modal .login {
-        background-color: darkblue;
-        color: white;
-        font-weight: bold;
-        margin-left: -.5em;
-    }
-
-    .modal .login:hover {
-        background-color: rgb(0, 0, 180);
-    }
-
-    .modal .register {
-        background-color: darkblue;
-        color: white;
-        font-weight: bold;
-        margin-left: -.5em;
-    }
-
-    .modal .register:hover {
-        background-color: rgb(0, 0, 180);
-    }
-
-    .asterix {
-        color: red;
-        margin-left: 2px;
-    }
-
-    .error-message {
-        color: red;
-        margin-top: 2px;
-    }
-
-    form .label_gender {
-        margin-left: -.5em;
-    }
-
-    form .gender {
-        margin-left: -.5em;
-    }
-
-    form .gender :hover {
-        cursor: pointer;
-    }
-</style>
 
 <body>
 
