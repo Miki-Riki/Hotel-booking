@@ -1,0 +1,13 @@
+[
+  {
+    "hotel": "HOTEL NAME",
+    "price": "\u20ac\u00a0140",
+    "score": "10",
+    "room": "2",
+    "bed": "2",
+    "adult": "2",
+    "children": "2",
+    "facilities": ["Pool", "TV"...],
+    "image_url": "https://..."
+  }
+]
