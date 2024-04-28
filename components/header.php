@@ -97,73 +97,83 @@
 
   <!-- Registration Form -->
 
-  <div class="modal fade modal-dialog modal-dialog-centered modal-lg sticky" id="RegisterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade modal-dialog-centered modal-lg" id="RegisterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-person-add mx-2"></i>Registration</h1>
+          <h1 class="modal-title fs-5"><i class="bi bi-person-add mx-2"></i>Registration</h1>
           <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <form id="registration-form" method="POST" action="users/registration.php" enctype="multipart/form-data">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="first_name" class="form-label">First name<span class="asterix">*</span></label>
                   <input type="text" class="form-control" id="first_name" name="first_name" required>
                 </div>
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="last_name" class="form-label">Last name<span class="asterix">*</span></label>
                   <input type="text" class="form-control" id="last_name" name="last_name" required>
                 </div>
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="email" class="form-label">Email<span class="asterix">*</span></label>
                   <input type="email" class="form-control" id="email" name="email" required>
                   <div id="email-error-message" style="color: red;"></div>
                 </div>
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="phone" class="form-label">Phone<span class="asterix">*</span></label>
                   <input type="tel" class="form-control" id="phone" name="phone" required>
                   <div id="phoneError" class="error-message"></div>
                 </div>
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="password" class="form-label">Password<span class="asterix">*</span></label>
                   <input type="password" class="form-control" id="password" name="password" required>
                   <div id="password-error" class="error-message"></div>
                 </div>
-                <div class="col-md-6 ps-0 mb-3">
+                <div class="col-md-6 mb-3">
                   <label for="profile_image" class="form-label">Upload image</label>
                   <input class="form-control" type="file" id="profile_image" name="profile_image">
-                  <div id="fileTypeError" style="display: none; color: red;">
-                  </div>
+                  <div id="fileTypeError" style="display: none; color: red;"></div>
                   <div id="fileSizeError" style="display: none; color: red;"></div>
                 </div>
-                <label class="label_gender">Gender<span class="asterix">*</span></label>
-                <div class="mb-3 d-flex">
-                  <div class="form-check gender">
-                    <input class="form-check-input" type="radio" name="gender" id="maleGender" value="Male" required>
-                    <label class="form-check-label" for="maleGender">
-                      Male
-                    </label>
+                <div class="col-md-12 mb-3 m-2">
+                  <label class="label_gender">Gender<span class="asterix">*</span></label>
+                  <div class="mb-3 d-flex">
+                    <div class="form-check gender">
+                      <input class="form-check-input" type="radio" name="gender" id="maleGender" value="Male" required>
+                      <label class="form-check-label" for="maleGender">
+                        Male
+                      </label>
+                    </div>
+                    <div class="form-check gender mx-2">
+                      <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="Female" required>
+                      <label class="form-check-label" for="femaleGender">
+                        Female
+                      </label>
+                    </div>
                   </div>
-                  <div class="form-check mx-2 gender">
-                    <input class="form-check-input" type="radio" name="gender" id="femaleGender" value="Female" required>
-                    <label class="form-check-label" for="femaleGender">
-                      Female
-                  </div>
-                  </label>
                 </div>
-                <div class="text-center my-1">
-                  <button type="submit" id="submit-button" class="btn register float-start">Register now</button>
-                  <span class="float-end mt-2 me-2 text-secondary">Already have an account?<a href="#LoginModal" data-bs-toggle="modal"> Sign in</a></span>
+              </div>
+              <div class="container">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-md-auto text-center float-md-start">
+                    <button type="submit" id="submit-button" class="btn register">Register now</button>
+                  </div>
+                  <div class="col-md-auto text-center">
+                    <span class="text-secondary float-md-end">Already have an account?<a href="#LoginModal" data-bs-toggle="modal"> Sign in</a></span>
+                  </div>
                 </div>
               </div>
             </div>
-          </form>
         </div>
       </div>
+      </form>
     </div>
   </div>
+  </div>
+  </div>
+
 
   <!-- Login Form -->
 
@@ -186,9 +196,15 @@
             </div>
             <div id="errorMessage" class="text-danger"></div>
           </div>
-          <div class="text-center my-1">
-            <button type="submit" class="btn login float-start m-3">Login</button>
-            <span class="float-end mt-4 text-secondary me-3">Don't have an account?<a href="#RegisterModal" data-bs-toggle="modal"> Sign up</a></span>
+          <div class="container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-md-auto text-center">
+                <button type="submit" class="btn login m-1 mb-2 float-md-start">Login</button>
+              </div>
+              <div class="col-md-auto text-center">
+                <span class="text-secondary float-md-end">Don't have an account? <a href="#RegisterModal" data-bs-toggle="modal">Sign up</a></span>
+              </div>
+            </div>
           </div>
         </form>
       </div>
