@@ -7,7 +7,7 @@
     "bed": "2",
     "adult": "2",
     "children": "2",
-    "facilities": ["Pool", "TV"...],
+    "facilities": ["Pool", "TV", "..."],
     "image_url": "https://..."
   }
 ]
