@@ -351,10 +351,3 @@ h5 {
         width: 100%;
     }
 }
-
-@media screen and (max-width: 500px) {
-    #search_parameters button {
-        margin-left: 50%;
-        transform: translate(-50%);
-    }
-}
