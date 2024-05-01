@@ -3,5 +3,4 @@
 
 To be able to use download in pdf you'll need to refer to https://tcpdf.org/ or clone a github repo <a href="https://github.com/tecnickcom/TCPDF.git">TCPDF</a> and put it in main ```project``` folder.
 
-<small>**Note**: If you are accessing the website from a phone, it sometimes gets buggy. Clear the browser cache, and it should be good.</small>
-
+**Note**: If you are accessing the website from a phone, it sometimes gets buggy. Clear the browser cache, and it should be good.
