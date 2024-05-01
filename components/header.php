@@ -26,7 +26,7 @@
     <div class="container-fluid">
       <div class="logo">
         <a class="navbar-brand" href="/hoteli/index.php">
-          <img src="logo/logo.png"></a>
+          <img src="logo/logo.png" alt="Logo"></a>
       </div>
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
