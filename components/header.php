@@ -158,7 +158,7 @@
               <div class="container">
                 <div class="row justify-content-between align-items-center">
                   <div class="col-md-auto text-center float-md-start">
-                    <button type="submit" id="submit-button" class="btn register">Register now</button>
+                    <button type="submit" id="submit-button" class="btn register mb-2">Register now</button>
                   </div>
                   <div class="col-md-auto text-center">
                     <span class="text-secondary float-md-end">Already have an account?<a href="#LoginModal" data-bs-toggle="modal"> Sign in</a></span>
@@ -201,7 +201,7 @@
               <div class="col-md-auto text-center">
                 <button type="submit" class="btn login m-1 mb-2 float-md-start">Login</button>
               </div>
-              <div class="col-md-auto text-center">
+              <div class="col-md-auto text-center pb-1">
                 <span class="text-secondary float-md-end">Don't have an account? <a href="#RegisterModal" data-bs-toggle="modal">Sign up</a></span>
               </div>
             </div>
