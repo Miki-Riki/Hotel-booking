@@ -50,8 +50,8 @@
             <input type="number" class="form-control" id="children" name="children" value="0" min="0" max="25">
           </div>
         </div>
-        <div class="form-group col-lg-1 mb-1">
-          <button id="submitButton" type="submit" class="btn">Search</button>
+        <div class="form-group col-lg-1 mb-1 d-flex justify-content-center justify-content-lg-start">
+            <button id="submitButton" type="submit" class="btn">Search</button>
         </div>
       </div>
     </form>
